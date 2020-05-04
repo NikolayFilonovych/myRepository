@@ -11,10 +11,11 @@
 
 Дополнительные требования
 
-Используемые технологии
-
-Spring </br>
-MySql
-Html
-CSS
-JavaScript
+<h4>Используемые технологии</h4>
+<ul>
+  <li>Spring</li>
+  <li>MySql</li>
+  <li>Html</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
