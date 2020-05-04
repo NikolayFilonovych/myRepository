@@ -14,6 +14,7 @@
 
 <h4>Используемые технологии</h4>
 <ul>
+  <li>Java</li>
   <li>Spring</li>
   <li>MySql</li>
   <li>Html</li>
