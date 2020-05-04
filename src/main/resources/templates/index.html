@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Aboundance</title>
+    <style>
+        .circle {
+            float: left;
+            alignment: bottom;
+            /*position: center;*/
+            border-radius: 0.4em;
+            padding: 0.4em;
+            background: rgb(180, 180, 180);
+            margin-top: 28em;
+            margin-right: 0.5em;
+        }
+
+        .show {
+            padding: -1em;
+            height: 30em;
+            background: dodgerblue;
+            margin-bottom: 2em;
+        }
+
+        .hipermarket {
+            margin: 1em;
+            padding: 2em;
+            background: #b3d4fc;
+            border: dodgerblue 5px solid;
+            position: fixed;
+            width: 60em;
+        }
+
+        .shop {
+            margin-top: 1em;
+            margin-right: 1em;
+            background: rgb(163, 65, 24);
+            color: white;
+            float: left;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .control {
+            width: 10em;
+            float: right;
+            background: lightgreen;
+            margin-top: 1em;
+            margin-left: 40em;
+            padding: 1em;
+            border: chartreuse solid 5px;
+            color: darkblue;
+        }
+
+        body {
+            padding: 1em;
+            color: dodgerblue;
+        }
+
+        p {
+            padding: 1em;
+            color: black;
+            background: darkcyan;
+            align-content: center;
+        }
+
+        button {
+            color: white;
+            font-family: "Arial Black";
+            border-radius: 3em;
+            padding: 1em;
+            text-align: center;
+            background: red;
+            margin-right: 3em;
+            float: left;
+        }
+    </style>
+    <script src="Script0.js"></script>
+</head>
+<body>
+<h1 th:text="${header}">Header</h1>
+<div class="show">
+    <div style="margin-left: 40em" class="circle" id="i1" onclick="alert(this.id)"></div>
+    <div class="circle" id="i2" onclick="alert(this.id)"></div>
+    <div class="circle" id="i3" onclick="alert(this.id)"></div>
+    <div class="circle" id="i4" onclick="alert(this.id)"></div>
+    <div class="circle" id="i5" onclick="alert(this.id)"></div>
+</div>
+<div class="hipermarket" id="hiperm">
+    <div class="shop">Сладости</div>
+    <div class="shop">Выпечка</div>
+    <div class="shop">Овощи</div>
+    <div class="shop">Фрукты</div>
+    <div class="shop">Молочные продукты</div>
+    <div class="shop">Канцтовары</div>
+    <div class="shop">Бытовая химия</div>
+    <div class="shop">Одежда</div>
+</div>
+<div class="control">
+    <button onclick="addCategory()">Добавить</button>
+    <div style="float: right"><input type="text" id="title" style="float: right; margin-bottom: 0.5em"/><br>
+        <label>Название категории</label></div>
+    <br>
+
+    <br/><br/><br/>
+    <div style="float: left">
+        <button onclick="setColor()" style="margin-bottom: 0.8em">Задать цвет</button>
+        <br>
+        <div style="float: left">
+            <input id="red" type="number" max="255" min="0" value="0"/><label> красный</label><br/>
+            <input id="green" type="number" max="255" min="0" value="0"/><label> зеленый</label><br/>
+            <input id="blue" type="number" max="255" min="0" value="0"/><label> синий</label><br/>
+        </div>
+        <div id="bg" style="margin-left:1em; float: right; background: rgb(0,0,0); padding: 2em">
+
+        </div>
+    </div>
+</div>
+<br/><br/><br/>
+<br/>
+</body>
+</html>
