@@ -1,3 +1,4 @@
+
 function setColor() {
     let r = document.getElementById("red").value;
     if (r == "") r = 0;
