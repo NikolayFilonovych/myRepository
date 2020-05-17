@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <title>Aboundance</title>
     <style>
+        .shop {
+            margin-top: 1em;
+            margin-right: 1em;
+            background: rgb(163, 65, 24);
+            color: white;
+            float: left;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .control {
+            width: 10em;
+            float: right;
+            background: lightgreen;
+            margin-left: 40em;
+            padding: 1em;
+            border: chartreuse solid 5px;
+            color: darkblue;
+        }
+
         .circle {
             float: left;
             /*alignment: center;*/
@@ -30,49 +50,41 @@
             background: red;
         }
 
+        .supermarket_body
+        {
+            margin-top: 0;
+            margin-bottom: 1em;
+
+            /*border: solid white 1px;*/
+            padding: 0.5em;
+            position: absolute;
+        }
+
         .hypermarket {
             margin-top: 0;
             margin-left: 0;
+            margin-bottom: 2em;
             width: 15em;
             float:left;
+            border:none;
         }
 
-        .shop {
-            margin-top: 1em;
-            margin-right: 1em;
-            background: rgb(163, 65, 24);
-            color: white;
-            float: left;
-            text-align: center;
-            padding: 1em;
-        }
-
-        .control {
-            width: 10em;
-            float: right;
-            background: lightgreen;
-            /*margin-top: 1em;*/
-            margin-left: 40em;
-            padding: 1em;
-            border: chartreuse solid 5px;
-            color: darkblue;
-        }
-
-        .content
+       .content
         {
             background: brown;
-            margin-left: 16em; /*kenyer*/
+            margin-left: 16em;
+            margin-bottom: 5em;
             float: right;
             position: absolute;
             width: 68em;
-            height: 30em;/**/
+            height: 43em;
         }
 
         .bot
         {
             float: bottom;
             background: rgb(50,50,50);
-            margin-top: 38em;
+            margin-top: 45em;
             height: 10em;
         }
 
@@ -136,7 +148,7 @@
             background: rgb(220,220,220);
         }
     </style>
-    <script type="text/javascript" src="../static/Script1.js"></script>
+    <script src="../static/Script1.js"></script> <!-- dsafsadvcx-->
 </head>
 <body>
 <h1 th:text="${header}">Header</h1>
@@ -149,31 +161,35 @@
          <div class="circle" id="i5" onclick="alert(this.id)"></div>
      </div>
 
-    <div class="hypermarket" id="hiperm">
-    <!--    <div class="shop">Сладости</div>-->
-    <!--    <div class="shop">Выпечка</div>-->
-    <!--    <div class="shop">Овощи</div>-->
-    <!--    <div class="shop">Фрукты</div>-->
-    <!--    <div class="shop">Молочные продукты</div>-->
-    <!--    <div class="shop">Канцтовары</div>-->
-    <!--    <div class="shop">Бытовая химия</div>-->
-    <!--    <div class="shop">Одежда</div>-->
-        <ul>
-            <li><img class="icon" src="../Icons/Food.png"/>Бакалея</li>
-            <li><img class="icon" src="../Icons/Gadget.png"/>Техника и мультимедиа</li>
-            <li><img class="icon" src="../Icons/Chemistry.png"/>Бытовая химия</li>
-            <li><img class="icon" src="../Icons/Sport.png"/>Спорт и отдых</li>
-            <li><img class="icon" src="../Icons/Cosmetics.png"/>Косметика</li>
-            <li><img class="icon" src="../Icons/travels.png"/>Всё для путешествий</li>
-            <li><img class="icon" src="../Icons/stationery.png"/>Канцтовары и книги</li>
-            <li><img class="icon" src="../Icons/Garden.png"/>Товары для сада</li>
-            <li><img class="icon" src="../Icons/cat.png"/>Товары для животных</li>
-            <li><img class="icon" src="../Icons/car.png"/>Автомобильные товары</li>
-            <li><img class="icon" src="../Icons/repair.png"/>Товары для ремонта</li>
-        </ul>
-    </div>
+    <div class="supermarket_body">
+        <div class="hypermarket" id="hiperm">
+        <!--    <div class="shop">Сладости</div>-->
+        <!--    <div class="shop">Выпечка</div>-->
+        <!--    <div class="shop">Овощи</div>-->
+        <!--    <div class="shop">Фрукты</div>-->
+        <!--    <div class="shop">Молочные продукты</div>-->
+        <!--    <div class="shop">Канцтовары</div>-->
+        <!--    <div class="shop">Бытовая химия</div>-->
+        <!--    <div class="shop">Одежда</div>-->
+            <ul>
+                <li><img class="icon" src="../Icons/Food.png" alt="food"/>Бакалея</li>
+                <li><img class="icon" src="../Icons/Gadget.png" alt="gadget"/>Техника и мультимедиа</li>
+                <li><img class="icon" src="../Icons/Chemistry.png" alt="chemistry"/>Бытовая химия</li>
+                <li><img class="icon" src="../Icons/toy.png" alt="toy"/>Игрушки</li>
+                <li><img class="icon" src="../Icons/baby-bottle.png" alt="baby-bottle"/>Всё для малышей</li>
+                <li><img class="icon" src="../Icons/Sport.png" alt="sport"/>Спорт и отдых</li>
+                <li><img class="icon" src="../Icons/Cosmetics.png" alt="cosmetics"/>Косметика</li>
+                <li><img class="icon" src="../Icons/travels.png" alt="travels"/>Всё для путешествий</li>
+                <li><img class="icon" src="../Icons/stationery.png" alt="stationery"/>Канцтовары и книги</li>
+                <li><img class="icon" src="../Icons/Garden.png" alt="garden"/>Товары для сада</li>
+                <li><img class="icon" src="../Icons/cat.png" alt="cat"/>Товары для животных</li>
+                <li><img class="icon" src="../Icons/car.png" alt="car"/>Автомобильные товары</li>
+                <li><img class="icon" src="../Icons/repair.png" alt="repair"/>Товары для ремонта</li>
+            </ul>
+        </div>
 
-    <div class="content"></div>
+        <div class="content"></div>
+    </div>
 
     <div class="bot"></div>
 
