@@ -26,20 +26,17 @@
 
         .circle {
             float: left;
-            /*alignment: center;*/
             position: center;
             border-radius: 0.4em;
             padding: 0.4em;
             background: rgb(180, 180, 180);
-            /*margin-top: 28em;*/
             margin-right: 0.5em;
         }
 
         .show {
             padding: -1em;
             height: 30em;
-            background: dodgerblue;
-            /*margin-left: 5em;*/
+            background: blue;
         }
 
         .chain
@@ -54,8 +51,6 @@
         {
             margin-top: 0;
             margin-bottom: 1em;
-
-            /*border: solid white 1px;*/
             padding: 0.5em;
             position: absolute;
         }
@@ -111,7 +106,6 @@
 
         button {
             color: white;
-            font-family: "Arial Black";
             border-radius: 3em;
             padding: 1em;
             text-align: center;
@@ -123,7 +117,7 @@
         {
             border-radius: 1em;
             border: rgb(200,200,200) solid 0.05em;
-            margin-top: 0em;
+            margin-top: 0;
         }
         li
         {
@@ -137,40 +131,34 @@
         }
         li:first-child
         {
-            border-radius: 1em 1em 0 0; /*jhkjgh*/
+            border-radius: 1em 1em 0 0;
         }
         li:last-child
         {
-            border-radius: 0 0 1em 1em; /*fsdgf*/
+            border-radius: 0 0 1em 1em;
         }
         li:hover
         {
             background: rgb(220,220,220);
         }
     </style>
-    <script src="../static/Script1.js"></script> <!-- dsafsadvcx-->
+
+    <script src="../static/Script1.js"></script>
 </head>
 <body>
 <h1 th:text="${header}">Header</h1>
-    <div class="show" id="slideShow"></div>
+     <div class="show" id="slideShow"></div>
+
      <div class="chain">
-         <div style="margin-left: 40em" class="circle" id="i1" onclick="alert(this.id)"></div>
-         <div class="circle" id="i2" onclick="alert(this.id)"></div>
-         <div class="circle" id="i3" onclick="alert(this.id)"></div>
-         <div class="circle" id="i4" onclick="alert(this.id)"></div>
-         <div class="circle" id="i5" onclick="alert(this.id)"></div>
+         <div style="margin-left: 40em" class="circle" id="i1" onclick=""></div>
+         <div class="circle" id="i2" onclick=""></div>
+         <div class="circle" id="i3" onclick=""></div>
+         <div class="circle" id="i4" onclick=""></div>
+         <div class="circle" id="i5" onclick=""></div>
      </div>
 
     <div class="supermarket_body">
         <div class="hypermarket" id="hiperm">
-        <!--    <div class="shop">Сладости</div>-->
-        <!--    <div class="shop">Выпечка</div>-->
-        <!--    <div class="shop">Овощи</div>-->
-        <!--    <div class="shop">Фрукты</div>-->
-        <!--    <div class="shop">Молочные продукты</div>-->
-        <!--    <div class="shop">Канцтовары</div>-->
-        <!--    <div class="shop">Бытовая химия</div>-->
-        <!--    <div class="shop">Одежда</div>-->
             <ul>
                 <li><img class="icon" src="../Icons/Food.png" alt="food"/>Бакалея</li>
                 <li><img class="icon" src="../Icons/Gadget.png" alt="gadget"/>Техника и мультимедиа</li>
@@ -187,33 +175,17 @@
                 <li><img class="icon" src="../Icons/repair.png" alt="repair"/>Товары для ремонта</li>
             </ul>
         </div>
-
         <div class="content"></div>
     </div>
-
     <div class="bot"></div>
-
-<!--<div class="control">-->
-<!--    <button onclick="addCategory()">Добавить</button>-->
-<!--    <div style="float: right"><input type="text" id="title" style="float: right; margin-bottom: 0.5em"/><br>-->
-<!--        <label>Название категории</label></div>-->
-<!--    <br>-->
-
-<!--    <br/><br/><br/>-->
-<!--    <div style="float: left">-->
-<!--        <button onclick="setColor()" style="margin-bottom: 0.8em">Задать цвет</button>-->
-<!--        <br>-->
-<!--        <div style="float: left">-->
-<!--            <input id="red" type="number" max="255" min="0" value="0"/><label> красный</label><br/>-->
-<!--            <input id="green" type="number" max="255" min="0" value="0"/><label> зеленый</label><br/>-->
-<!--            <input id="blue" type="number" max="255" min="0" value="0"/><label> синий</label><br/>-->
-<!--        </div>-->
-<!--        <div id="bg" style="margin-left:1em; float: right; background: rgb(0,0,0); padding: 2em">-->
-
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-<!--<br/><br/><br/>-->
-<!--<br/>-->
 </body>
 </html>
+
+<!--    <div class="shop">Сладости</div>-->
+<!--    <div class="shop">Выпечка</div>-->
+<!--    <div class="shop">Овощи</div>-->
+<!--    <div class="shop">Фрукты</div>-->
+<!--    <div class="shop">Молочные продукты</div>-->
+<!--    <div class="shop">Канцтовары</div>-->
+<!--    <div class="shop">Бытовая химия</div>-->
+<!--    <div class="shop">Одежда</div>-->
