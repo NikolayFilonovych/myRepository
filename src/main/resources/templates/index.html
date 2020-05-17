@@ -26,18 +26,16 @@
         {
             margin-top:0;
             padding: 1em;
-            margin-bottom: 2em;
+            margin-bottom: 1em;
             background: red;
-            /*margin-left: 5em;*/
         }
 
-        .hipermarket {
-            margin: 1em;
-            //padding: 2em;
-            background: #b3d4fc;
-            border: dodgerblue 5px solid;
-            /*position: fixed;*/
+        .hypermarket {
+            margin-top: 0em;
+            margin-left: 0em;
+            /*background: #b3d4fc;*/
             width: 15em;
+            float:left;
         }
 
         .shop {
@@ -64,10 +62,25 @@
         .content
         {
             background: brown;
-            margin-left: 18em;
-            margin-top: -42em;
+            margin-left: 16em; /*kenyer*/
+            float: right;
+            position: absolute;
             width: 68em;
-            height: 40em;
+            height: 30em;/**/
+        }
+
+        .bot
+        {
+            float: bottom;
+            background: rgb(50,50,50);
+            margin-top: 40em; /*gsd*/
+            height: 10em;
+        }
+
+        .icon
+        {
+            float: left;
+            padding-bottom: 1em;
         }
 
         body {
@@ -94,21 +107,24 @@
         }
         ul
         {
-            marker: none;
+            border-collapse: collapse;
+            border-radius: 0.3em;
+            /*position: absolute;*/
         }
         li
         {
-            marker-mid: none;
+            border-collapse: collapse;
+            margin-left: -2.6em;
+            list-style-type: none;
             padding: 1em;
             marker: none;
-            border: solid black 2px;
-            color: darkolivegreen;
-            background: lightsalmon;
+            border: solid rgb(170,170,170) 0.01em;
+            color: rgb(90,90,90);/*1000*/
+            background: white;
         }
         li:hover
         {
-            background: chocolate;
-            color:white;
+            background: rgb(220,220,220);/*dasgdfzv*/
         }
     </style>
     <script src="D:\Мої документи\GitHub\myRepository\src\main\resources\static\Script1.js"></script>
@@ -125,7 +141,7 @@
          <div class="circle" id="i5" onclick="alert(this.id)"></div>
      </div>
 
-    <div class="hipermarket" id="hiperm">
+    <div class="hypermarket" id="hiperm">
     <!--    <div class="shop">Сладости</div>-->
     <!--    <div class="shop">Выпечка</div>-->
     <!--    <div class="shop">Овощи</div>-->
@@ -134,23 +150,24 @@
     <!--    <div class="shop">Канцтовары</div>-->
     <!--    <div class="shop">Бытовая химия</div>-->
     <!--    <div class="shop">Одежда</div>-->
-        <ul style="border: green solid 5px; margin-top: 0em; margin-bottom: 0em">
-            <li onmouseover="" href=''>Бакалея</li>
-            <li onmouseover="" href="">Техника и мультимедиа</li>
-            <li onmouseover="" href="">Бытовая химия</li>
-            <li onmouseover="" href="">Спорт и отдых</li>
-            <li onmouseover="" href="">Косметика</li>
-            <li onmouseover="" href="">Всё для путешествий</li>
-            <li onmouseover="" href="">Канцтовары и книги</li>
-            <li onmouseover="" href="">Товары для сада</li>
-            <li onmouseover="" href="">Товары для животных</li>
-            <li onmouseover="" href="">Автомобильные товары</li>
-            <li onmouseover="" href="">Товары для ремонта</li>
+        <ul style="border: rgb(120,120,120) solid 2px; margin-top: 0em; margin-bottom: 0em;">
+            <li><img class="icon" src="src\main\resources\Icons\Food.jpg"/>Бакалея</li>
+            <li>Техника и мультимедиа</li>
+            <li>Бытовая химия</li>
+            <li>Спорт и отдых</li>
+            <li>Косметика</li>
+            <li>Всё для путешествий</li>
+            <li>Канцтовары и книги</li>
+            <li>Товары для сада</li>
+            <li>Товары для животных</li>
+            <li>Автомобильные товары</li>
+            <li>Товары для ремонта</li>
         </ul>
     </div>
 
      <div class="content"></div>
 
+     <div class="bot"></div>
 
 <!--<div class="control">-->
 <!--    <button onclick="addCategory()">Добавить</button>-->
