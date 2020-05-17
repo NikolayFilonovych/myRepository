@@ -31,9 +31,8 @@
         }
 
         .hypermarket {
-            margin-top: 0em;
-            margin-left: 0em;
-            /*background: #b3d4fc;*/
+            margin-top: 0;
+            margin-left: 0;
             width: 15em;
             float:left;
         }
@@ -73,7 +72,7 @@
         {
             float: bottom;
             background: rgb(50,50,50);
-            margin-top: 40em;
+            margin-top: 38em;
             height: 10em;
         }
 
@@ -82,6 +81,8 @@
             float: left;
             padding-bottom: 1em;
             margin-right: 1em;
+            width: 1.5em;
+            height: 1.5em;
         }
 
         body {
@@ -108,30 +109,36 @@
         }
         ul
         {
-            border-collapse: collapse;
-            border-radius: 0.3em;
-            /*position: absolute;*/
+            border-radius: 1em;
+            border: rgb(200,200,200) solid 0.05em;
+            margin-top: 0em;
         }
         li
         {
-            border-collapse: collapse;
             margin-left: -2.6em;
             list-style-type: none;
             padding: 1em;
             marker: none;
-            border: solid rgb(170,170,170) 0.01em;
-            color: rgb(90,90,90);/*1000*/
+            border: solid rgb(200,200,200) 0.05em;
+            color: rgb(90,90,90);
             background: white;
+        }
+        li:first-child
+        {
+            border-radius: 1em 1em 0 0; /*jhkjgh*/
+        }
+        li:last-child
+        {
+            border-radius: 0 0 1em 1em; /*fsdgf*/
         }
         li:hover
         {
-            background: rgb(220,220,220);/*dasgdfzv*/
+            background: rgb(220,220,220);
         }
     </style>
-    <script src="D:\Мої документи\GitHub\myRepository\src\main\resources\static\Script1.js"></script>
+    <script type="text/javascript" src="../static/Script1.js"></script>
 </head>
 <body>
-<!--     <script src="Script1.js"></script>-->
 <h1 th:text="${header}">Header</h1>
     <div class="show" id="slideShow"></div>
      <div class="chain">
@@ -151,24 +158,24 @@
     <!--    <div class="shop">Канцтовары</div>-->
     <!--    <div class="shop">Бытовая химия</div>-->
     <!--    <div class="shop">Одежда</div>-->
-        <ul style="border: rgb(120,120,120) solid 2px; margin-top: 0em; margin-bottom: 0em;">
-            <li><img class="icon" src="src\main\resources\Icons\Food.jpg"/>Бакалея</li>
-            <li>Техника и мультимедиа</li>
-            <li>Бытовая химия</li>
-            <li>Спорт и отдых</li>
-            <li>Косметика</li>
-            <li>Всё для путешествий</li>
-            <li>Канцтовары и книги</li>
-            <li>Товары для сада</li>
-            <li>Товары для животных</li>
-            <li>Автомобильные товары</li>
-            <li>Товары для ремонта</li>
+        <ul>
+            <li><img class="icon" src="../Icons/Food.png"/>Бакалея</li>
+            <li><img class="icon" src="../Icons/Gadget.png"/>Техника и мультимедиа</li>
+            <li><img class="icon" src="../Icons/Chemistry.png"/>Бытовая химия</li>
+            <li><img class="icon" src="../Icons/Sport.png"/>Спорт и отдых</li>
+            <li><img class="icon" src="../Icons/Cosmetics.png"/>Косметика</li>
+            <li><img class="icon" src="../Icons/travels.png"/>Всё для путешествий</li>
+            <li><img class="icon" src="../Icons/stationery.png"/>Канцтовары и книги</li>
+            <li><img class="icon" src="../Icons/Garden.png"/>Товары для сада</li>
+            <li><img class="icon" src="../Icons/cat.png"/>Товары для животных</li>
+            <li><img class="icon" src="../Icons/car.png"/>Автомобильные товары</li>
+            <li><img class="icon" src="../Icons/repair.png"/>Товары для ремонта</li>
         </ul>
     </div>
 
-     <div class="content"></div>
+    <div class="content"></div>
 
-     <div class="bot"></div>
+    <div class="bot"></div>
 
 <!--<div class="control">-->
 <!--    <button onclick="addCategory()">Добавить</button>-->
