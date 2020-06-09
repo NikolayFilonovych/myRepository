@@ -1,4 +1,42 @@
 
+function opt()
+{
+    let v = document.createElement("p");
+    v.style.background = 'violet';
+    v.style.color = 'white';
+    v.style.margin = '1em';
+    v.style.padding = '1em';
+    v.innerText = 'You are strange here...';
+    document.getElementById("rest").appendChild(v);
+}
+
+function mainview() // функция для возвращения к главному виду сайта
+{
+    document.getElementById('show_and_actions').style.display='block';
+    document.getElementById('hyp').style.display='block';
+}
+
+function help() // функция для перехода к помощи
+{
+    document.getElementById("show_and_actions").style.display = "none";
+    document.getElementById("hyp").style.display = "none";
+    document.getElementById("rest").style.background = "white";
+}
+
+function about() // функция для перехода к справке о гипермаркете
+{
+    document.getElementById("show_and_actions").style.display = "none";
+    document.getElementById("hyp").style.display = "none";
+    document.getElementById("rest").style.background="white";
+}
+
+function conditions() // функция для перехода к справке об условиях использования
+{
+    document.getElementById("show_and_actions").style.display = "none";
+    document.getElementById("hyp").style.display = "none";
+    document.getElementById("rest").style.background="white";
+}
+
 function setColor() {
     let r = document.getElementById("red").value;
     if (r == "") r = 0;

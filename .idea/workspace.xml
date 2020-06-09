@@ -19,9 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe247a08-0bbe-4a67-a4af-563455d70cce" name="Default Changelist" comment="I have done important action.">
+    <list default="true" id="fe247a08-0bbe-4a67-a4af-563455d70cce" name="Default Changelist" comment="It is necessary image.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hipermarket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hipermarket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itstep/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itstep/UserBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Icons/facebook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Icons/instagram.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Icons/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Icons/youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Script0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Script0.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/Script1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Script1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Script2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Options.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Options.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +44,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,6 +58,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -83,7 +95,23 @@
       <workItem from="1589205875554" duration="9465000" />
       <workItem from="1589225657537" duration="3941000" />
       <workItem from="1589697966399" duration="24812000" />
-      <workItem from="1589730124332" duration="1080000" />
+      <workItem from="1589730124332" duration="7393000" />
+      <workItem from="1589785121822" duration="7042000" />
+      <workItem from="1589813579822" duration="5888000" />
+      <workItem from="1590260494966" duration="576000" />
+      <workItem from="1590304049562" duration="525000" />
+      <workItem from="1590417426984" duration="9283000" />
+      <workItem from="1590434883893" duration="1235000" />
+      <workItem from="1590564832047" duration="198000" />
+      <workItem from="1591251161686" duration="1493000" />
+      <workItem from="1591259546572" duration="4101000" />
+      <workItem from="1591347346741" duration="6512000" />
+      <workItem from="1591368188692" duration="2363000" />
+      <workItem from="1591373177838" duration="1716000" />
+      <workItem from="1591434666126" duration="2888000" />
+      <workItem from="1591464604079" duration="1181000" />
+      <workItem from="1591627126473" duration="3838000" />
+      <workItem from="1591715316965" duration="4031000" />
     </task>
     <task id="LOCAL-00001" summary="I added new files.">
       <created>1589215776047</created>
@@ -176,7 +204,112 @@
       <option name="project" value="LOCAL" />
       <updated>1589716428553</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="I have done important action.">
+      <created>1589731284980</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589731284980</updated>
+    </task>
+    <task id="LOCAL-00015" summary="I have created necessary classes.">
+      <created>1589747578754</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589747578754</updated>
+    </task>
+    <task id="LOCAL-00016" summary="I have created necessary classes.">
+      <created>1589748970229</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589748970230</updated>
+    </task>
+    <task id="LOCAL-00017" summary="I have created necessary classes.">
+      <created>1589748991410</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589748991410</updated>
+    </task>
+    <task id="LOCAL-00018" summary="It is important icon.">
+      <created>1590423814102</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590423814102</updated>
+    </task>
+    <task id="LOCAL-00019" summary="It is important icon.">
+      <created>1590423820453</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590423820453</updated>
+    </task>
+    <task id="LOCAL-00020" summary="It is important icon.">
+      <created>1590424552528</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590424552528</updated>
+    </task>
+    <task id="LOCAL-00021" summary="It is important icon.">
+      <created>1590424880111</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590424880111</updated>
+    </task>
+    <task id="LOCAL-00022" summary="It is important icon.">
+      <created>1591368439490</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1591368439490</updated>
+    </task>
+    <task id="LOCAL-00023" summary="It is important image.">
+      <created>1591370612913</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1591370612913</updated>
+    </task>
+    <task id="LOCAL-00024" summary="It is important image.">
+      <created>1591370632803</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591370632803</updated>
+    </task>
+    <task id="LOCAL-00025" summary="It is important file.">
+      <created>1591370727893</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1591370727893</updated>
+    </task>
+    <task id="LOCAL-00026" summary="It is necessary image.">
+      <created>1591454662889</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1591454662889</updated>
+    </task>
+    <task id="LOCAL-00027" summary="It is necessary image.">
+      <created>1591455656106</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1591455656106</updated>
+    </task>
+    <task id="LOCAL-00028" summary="It is necessary image.">
+      <created>1591456186275</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591456186275</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,9 +334,18 @@
     <MESSAGE value="I downloaded and added necessary files." />
     <MESSAGE value="I modified necessary files." />
     <MESSAGE value="I have done important action." />
-    <option name="LAST_COMMIT_MESSAGE" value="I have done important action." />
+    <MESSAGE value="I have created necessary classes." />
+    <MESSAGE value="It is important icon." />
+    <MESSAGE value="It is important image." />
+    <MESSAGE value="It is important file." />
+    <MESSAGE value="It is necessary image." />
+    <option name="LAST_COMMIT_MESSAGE" value="It is necessary image." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="442" y="21" width="946" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591374206842">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="21" width="946" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1591374206842" />
     <state x="537" y="114" key="RollbackChangesDialog" timestamp="1589214712462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -212,13 +354,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589707786074" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589716440600">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591456192868">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589716440600" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1589700434067">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591456192868" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1589749113291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589700434067" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589749113291" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589794087353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589794087353" />
   </component>
 </project>

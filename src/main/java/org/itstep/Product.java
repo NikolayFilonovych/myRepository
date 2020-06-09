@@ -1,73 +1,56 @@
 package org.itstep;
 
-public class Product  //
+public class Product  // класс, инициализирующий продукт
 {
-    private String name;
-    private double price;
+    private String brand; // маркка продукта
+    private String name; // название продукта
+    private double price; // цена продукта
 
-    private String superCategory;
-    private String subCategory;
+    private String category; // категория продукта
 
-    public Product()
+    public Product() // создаем конструктор по умолчанию
     {
-        name = "Product";
+        brand = "Марка";
+        name = "Продукт";
         price = 0;
-
-        superCategory = "none";
-        subCategory = "none";
+        category = "нет";
     }
 
-    public Product(String superCategory, String subCategory, String name, double price)
+    public Product(String brand, String name, double price, String category) // создаем конструктор с параметрами
     {
-        this.superCategory = superCategory;
-        this.subCategory = subCategory;
-
+        this.brand = brand;
+        this.category = category;
         this.name = name;
         this.price = price;
     }
 
-    public void setName(String n)
-    {
-        this.name = n;
-    }
+    public void setBrand(String b) // установить марку продукта
+    { this.brand = b; }
 
-    public String getName()
-    {
-        return this.name;
-    }
+    public String getBrand() // получить марку продукта
+    { return this.brand; }
 
-    public void setSuperCategory(String spc)
-    {
-        this.superCategory = spc;
-    }
+    public void setName(String n) // установить название продукта
+    { this.name = n; }
 
-    public String getSuperCategory()
-    {
-        return this.superCategory;
-    }
+    public String getName() // получить название продукта
+    { return this.name; }
 
-    public void setSubCategory(String sbc)
-    {
-        this.name = sbc;
-    }
+    public void setCategory(String sc) // установить категорию продукта
+    { this.category = sc; }
 
-    public String getSubCategory()
-    {
-        return this.name;
-    }
+    public String getCategory() // получить категорию продукта
+    { return this.category; }
 
-    public void setPrice(double p)
-    {
-        this.price = p;
-    }
+    public void setPrice(double p) // установить цену продукта
+    { this.price = p; }
 
-    public double getPrice()
-    {
-        return this.price;
-    }
+    public double getPrice() // получить цену продукта
+    { return this.price; }
 
-    public String toString()
+    @Override
+    public String toString() // переопределённый метод для получения строки, содержащей информацию о продукте
     {
-        return " Product " + this.name + " costs " + this.price + ", belongs to " + this.superCategory + " and is " + this.subCategory;
+        return " Продукт " + getName() + " марки " + getBrand() + " стоит " + getPrice() + ", принадлежит к " + getCategory() + ".";
     }
 }
