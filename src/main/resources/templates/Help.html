@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Помощь</title>
+    <style>
+        .bot
+        {
+            float: bottom;
+            background: rgb(50,50,50);
+            margin-top: 45em;
+            padding-top: 2em;
+            padding-left: 14em;
+            padding-right: 14em;
+            padding-bottom: 1em;
+        }
+
+        .botlist
+        {
+            list-style-type: none;
+            color: white;
+            transition: 0.4s linear;
+        }
+
+        .botlist:hover
+        {
+            color: rgb(180,180,180);
+            transition: 0.4s linear;
+            cursor: pointer;
+        }
+
+        .botlist:visited
+        {
+            color: white;
+        }
+
+        .help
+        {
+            background: white;
+            margin-left: 4em;
+            margin-bottom: 5em;
+            position: absolute;
+            height: 43em;
+            width: 83em;
+        }
+
+        body {
+            color: white;
+            background: url("../Images/Hypermarket1.jpg");
+        }
+    </style>
+</head>
+<body>
+    <h1 href="../templates/index.html"
+        onmouseover="this.style='color:red'"
+        onmouseout="this.style='color:white'">
+        Гипермаркет
+    </h1>
+
+    <div class="help">
+
+    </div>
+
+    <div class="bot">
+        <div style="float: top">
+            <a style="margin-left: 14em; color: rgb(180,180,180); font-family: Cambria; align-content: center">Хочу получать акционные предложения от Гипермаркета</a>
+            <button class="subbut">Подписаться</button>
+        </div>
+        <hr style="background: darkolivegreen; margin-bottom: 2em; margin-top: 2em">
+        <div style="float: top; margin-top: 2em">
+            <div style="height: 10em;float: left;">
+                <div style="background: rgb(30,30,30); color: white; border-radius: 2em; width: 6em; padding: 1em; float: left; margin-right: 5em">Телефон<br> 0 800 300 551</div>
+            </div>
+            <div style="margin-left: 6em">
+                <ul>
+                    <li class="botlist"><a onclick="help()">Помощь</a></li>
+                    <li class="botlist"><a onclick="about()">О гипермаркете</a></li>
+                    <li class="botlist"><a onclick="conditions()">Условия пользования</a></li>
+                    <li class="botlist"><a onclick="corruption()">Противодействие корупцие</a></li>
+                    <li class="botlist"><a onclick="delivery()">Доставка от Гипермаркета</a></li>
+                    <li class="botlist"><a onclick="press_realizes()">Прес-релизы</a></li>
+                    <li class="botlist"><a onclick="questansw()">Вопросы и ответы</a></li>
+                    <li class="botlist"><a >Зарегистрированть карту лояльности</a></li>
+                </ul>
+            </div>
+            <div style="margin-top: -11em; margin-bottom: 2em; margin-right: 22em; float: right ">
+                <p style="color:white;margin-bottom: 0.6em">Мы в социальных сетях</p>
+                <br>
+                <img src="../Icons/instagram.png" style="margin-left: 0.2em; float: left; width: 30px; height: 30px"/>
+                <img src="../Icons/facebook.png" style="margin-left: 2em; float: left; width: 30px; height: 30px"/>
+                <img src="../Icons/youtube.png" style="margin-left: 2em; float: left; width: 30px; height: 30px"/>
+            </div>
+        </div>
+        <br>
+        <div style="float: bottom; margin-top: 2em">
+            <div><a style="color: white; font-family: Cambria; float: left">Разработка компании IT&PT</a></div>
+            <div><a style="color: white; font-family: Cambria; margin-left: 6em">&copy 2020 Гипермаркет. Все права защищены</a></div>
+        </div>
+    </div>
+</body>
+</html>
